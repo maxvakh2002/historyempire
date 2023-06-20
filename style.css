@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+*,*:before,*:after{
+    box-sizing: border-box;/*фиксация размеров блоков*/
+}
+
+body{
+    background-color: white; 
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+p{
+    padding: 0 0 15px;
+}
+
+.container{
+    max-width: 1230px;/*максимальная ширина всех блоков для десктопов и мобильных устройств*/
+    width: 100%;
+    padding: 0 15px;/*контент на растоянии 15 пикселей от краев страницы при сжатии экрана на мобильных устройствах*/
+    margin: 0 auto;
+}
+
+.wrapper{
+    display: flex;
+    margin: 0 -10px;
+}
+
+.block{
+    width: 25%;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+/*header start*/
+.header{
+    background-color: black;
+    height: 200px;
+    padding: 15px;
+}
+
+.header__wrapper{
+    
+}
+
+.header__block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__lang{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav__link{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    transition: color 0.2s ease;
+}
+
+.nav__link:last-child{
+    margin-right: 0;
+}
+
+.nav__link:hover{
+    color: red;
+}
+
+/*header end*/
+
+/*intro start*/
+
+.intro{
+    position: relative;
+}
+
+.intro__content{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+/*intro end*/
+
+/*blocks end*/
+
+.blocks__content{
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.blocks__item{
+    text-decoration: none;/*убираем подчеркивания во всем блоке*/
+}
+
+.blocks__title{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.blocks__subtitle{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.2s ease;
+}
+
+.blocks__subtitle:hover{
+    color: red;
+}
+
+/*blocks end*/
+
+/*info start*/
+
+.info{
+    height: 400px;
+    margin-top: 20px;
+    background-color: black;
+}
+
+.info__block{
+    
+}
+
+.info__text{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    max-width: 680px;
+}
+
+.info__img{
+    padding: 35px;
+}
+
+/*info end*/
+
+/*Footer start*/
+.footer{
+    
+}
+
+.footer__wrapper{
+    height: 150px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.copyright{
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.15em;
+}
+
+.footer__soc-link{
+    text-decoration: none;
+    margin-right: 20px;/*отступ справа между значками 20 пикселей*/
+}
+
+.footer__soc-link:last-child{
+    margin-right: 0;/*убираем отступ справа у последнего значка*/
+}
+
+.footer__soc{
+    display: flex;
+}
+
+.footer__soc-link img{
+    height: 25px;/*высота значков*/
+}
+/*Footer end*/
