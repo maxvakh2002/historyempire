@@ -49,6 +49,10 @@ p{
     justify-content: space-between;
 }
 
+.header__logo{
+   
+}
+
 .header__nav{
     display: flex;
     justify-content: center;
@@ -133,7 +137,7 @@ p{
 /*info start*/
 
 .info{
-    height: 400px;
+    height: 250px;
     margin-top: 20px;
     background-color: black;
 }
@@ -145,15 +149,11 @@ p{
 .info__text{
     display: flex;
     justify-content: center;
-    padding: 20px;
+    text-align: center;
+    padding: 10px 0 10px;
     color: white;
     font-size: 25px;
     font-weight: 700;
-    max-width: 680px;
-}
-
-.info__img{
-    padding: 35px;
 }
 
 /*info end*/
