@@ -1,147 +1,204 @@
-<html>
-   
-    <head>
-         <meta name="viewport" content="width=device-width, user-scarable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"><!--мета-тег для адаптивной верстки-->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="stylesheet" type="text/css" href="media.css">
-        <title>History Empire</title>
-    </head>
-    
-    <body>
-       
-       <header class="header">
-           
-           <div class="container"><!--упорядочиваем расположение элементов хэдера-->
-              
-              <div class="header__wrapper">
-                   
-                   <div class="header__block">
-                       
-                           <img src="img/logo.png" alt="" class="header__logo"> 
-                       
-                      <nav class="header__nav">
-                           <a href="#" class="nav__link">ГЛАВНАЯ</a>
-                           <a href="#" class="nav__link">ОБ АВТОРЕ</a>
-                           <a href="#" class="nav__link">КОНТАКТЫ</a>
-                           <a href="#" class="nav__link">ПОДДЕРЖАТЬ НАС</a>
-                       </nav>
-                       
-                       <nav class="header__lang">
-                           <a href="#" class="nav__link">RU</a>
-                           <a href="#" class="nav__link">EN</a>
-                           <a href="#" class="nav__link">DE</a>
-                       </nav>
-                       
-                   </div>
-               
-              </div>
+<!DOCTYPE html>
+<html lang="en">
 
-            </div><!--/container-->
-           
-       </header>
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, user-scarable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"><!--мета-тег для адаптивной верстки-->
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    
+    <title>History Empire</title>
+    
+</head>
+
+<body>
+   
+   <header class="header">
+      
+      <div class="header-container">
        
-       <section class="intro">
+       <div class="wrapper">
+         
+         <input type="checkbox" id="checkmenu">
+         <label for="checkmenu"></label>
+         
+         <div class="burger-block">
+            
+          <div class="burger-line"></div>
+          <div class="burger-line"></div>
+          <div class="burger-line"></div>
+             
+         </div><!--/burger-block-->
           
-           <div class="container">
-              
-               <div class="intro__content">
-                   
-                   <h1 class="title">Добро пожаловать на сайт <br> Историческая империя</h1>
-                   
-               </div>
-               
-           </div>
-           
-       </section>
+         <nav class="main-menu">
+             <li>
+                
+                 <ul>
+                 <a href="index.html" class="navtext navlinks">Главная</a></ul>
+                 
+                 <ul>
+                 <a href="contacts.html" class="navtext navlinks">Контакты</a></ul>
+                 
+                 <ul>
+                 <a href="supportus.html" class="navtext navlinks">Поддержать нас</a>
+                 </ul>
+                 
+             </li>
+         </nav>
+         
+        <img src="img/%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%BB%D0%BE%D0%B3%D0%BE.png" alt="" class="logo"><!--стилизуем лого в media-->
+         
+       </div><!--/wrapper-->
+        
+      </div><!--/container-->
        
-       <section class="blocks">
-           
-           <div class="container">
+   </header>
+   
+   <section class="title">
+      
+      <div class="container">
+         
+          <div class="wrapper">
               
-               <h2 class="blocks__title">Наш контент</h2>
-               
-               <div class="wrapper">
-               
-               <a href="#" class="block blocks__subtitle">
+              <div class="titletext">
+                  <h1>Вашему вниманию предлагаются</h1>
+              </div>
+              
+          </div><!--/wrapper-->
+          
+      </div><!--/container-->
+       
+   </section>
+   
+   <section class="blocks1">
+       
+       <div class="container blocks1container">
+          
+          <div class="wrapper blocks-wrapper"><!--blocks-wrapper отдельно стилизуем в media, ставим элементы по вертикали-->
+             
+             <a href="lettersmenu.html" class="block blocks__subtitle">
                
                   <div class="blocks__item">
                           
-                          <div class="blocks__content" style="background-image: url('img/letter.jpg')">
-                          </div>
+                          <img src="img/pexels-lisa-fotios-1438190%20(1).jpg" class="blocks__content">
                           
-                          <div class="block__subtitle">Статьи
+                          <div class="blocks__subtitle">Статьи
                           </div>
                   </div>
                    
                </a>
                
-               <a href="#" class="block blocks__subtitle">
+               <a href="videomenu.html" class="block blocks__subtitle">
                
                   <div class="blocks__item">
                           
-                          <div class="blocks__content" style="background-image: url('img/video.jpg')">
-                          </div>
+                          <img src="img/video.jpg" class="blocks__content">
                           
-                          <div class="block__subtitle">Видео
+                          <div class="blocks__subtitle">Видео
                           </div>
                   </div>
                    
                </a>
                
-               <a href="#" class="block blocks__subtitle">
+               <a href="podcasts.html" class="block blocks__subtitle">
+               
+                  <div class="blocks__item">
+                          
+                          <img src="img/podcast.jpg" class="blocks__content">
+                          
+                          <div class="blocks__subtitle">Подкасты
+                          </div>
+                  </div>
+                   
+               </a>
+               
+          </div><!--/wrapper-->
+           
+       </div><!--/container-->
+       
+   </section>
+   
+   <section class="blocks2">
+       
+       <div class="container blocks2container">
+          
+          <div class="wrapper blocks-wrapper"><!--blocks-wrapper отдельно стилизуем в media, ставим элементы по вертикали-->
+             
+               <a href="booksmenu(rus).html" class="block blocks__subtitle">
+               
+                  <div class="blocks__item">
+                          
+                          <img src="img/letter.jpg" class="blocks__content">
+                          
+                          <div class="blocks__subtitle">Книги
+                          </div>
+                  </div>
+                   
+               </a>
+               
+               <a href="publicationmenu.html" class="block blocks__subtitle">
+               
+                  <div class="blocks__item">
+                          
+                          <img src="img/science.jpg" class="blocks__content">
+                          
+                          <div class="blocks__subtitle">Публикации
+                          </div>
+                  </div>
+                   
+               </a>
+               
+               <a href="photo-conferences.html" class="block blocks__subtitle">
                
                       <div class="blocks__item">
                           
-                          <div class="blocks__content" style="background-image: url('img/science.jpg')">
-                          </div>
+                           <img src="img/conference.jpg" class="blocks__content">
                           
-                          <div class="block__subtitle">Книги и публикации
+                          <div class="blocks__subtitle">Фото с конференций
                           </div>
                   </div>
                    
                </a>
                
-               <a href="#" class="block blocks__subtitle">
-               
-                  <div class="blocks__item">
-                          
-                          <div class="blocks__content" style="background-image: url('img/podcast.jpg')">
-                          </div>
-                          
-                          <div class="block__subtitle">Подкасты
-                          </div>
-                  </div>
-                   
-               </a>
-               
-           </div>
+          </div><!--/wrapper-->
            
-           </div>
+       </div><!--/container-->
        
-       </section>
-       
-       <section class="info">
+   </section>
+   
+   <section class="info">
           
-           <div class="container">
+           <div class="info-container">
               
-              <div class="wrapper">
-                  
-                  <div class="info__block">
+              <div class="wrapper info-wrapper">
+                    
+                    <div class="info__block">
+                        
+                     <div class="info__title">
+                         <h1>Об авторе</h1> 
+                     </div>
                       
-                      <p class="info__text">
-                           Наш контент посвящен истории Германии, Австрии, России, Франции и других крупнейших государств, оставивших свое имя в истории. Мы публикуем актуальный и интересный контент в различных формах: видео, документальные фильмы, статьи, подкасты. Нас смотрят как начинающие любители истории, так и те, кто интересуется ей во всех подробностях.
-                      </p>
+                      <div class="info__text">
+                           Автор канала - Максим Вахминцев, студент РГСУ. Я изучаю историю Германии и Австрии более трех лет. Веду YouTube-канал "Историческая империя", одноименную страницу во "Вконтакте", публикуюсь в научных журналах. На сайте представлены мои основные работы. 
+                      </div>
                       
-                  </div>
-     
+                      <div class="info__text">
+                           <a href="aboutauthor.html" class="info__text__link">Более подробную информацию об авторе вы можете узнать здесь</a>
+                      </div>
+                      
+                    </div><!--/info__block-->
+                     
+                    <img src="img/zrQiTUjebbo.jpg" class="info__img">
+                      
               </div>
                
            </div>
            
-       </section>  
+       </section>
        
-       <footer class="footer">
+   <footer class="footer">
            
             <div class="container">
                
@@ -165,10 +222,10 @@
                     
                 </div><!--/footer__wrapper-->
                 
-            </div><!--/container-->
-            
-        </footer>
-        
-    </body>
+           </div><!--/container-->
+           
+    </footer>
     
+</body>
+
 </html>
